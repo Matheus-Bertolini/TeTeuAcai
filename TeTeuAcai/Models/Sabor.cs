@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TeTeuAcai.Models;
 
-[Table("Sabores")]
-public class Sabores
+[Table("Sabor")]
+public class Sabor
 {
     [Key]
     [Required]

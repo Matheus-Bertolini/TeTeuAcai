@@ -8,5 +8,5 @@ public class Acai
     public string Foto { get; set; }
     public double Preco { get; set; }
 
-
+    public ICollection<AcaiComplemento> Complementos { get; set; }
 }
